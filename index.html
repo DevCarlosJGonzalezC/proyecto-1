@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="./assets/css/03-nav.css">
     <link rel="stylesheet" href="./assets/css/04-banner.css">
     <link rel="stylesheet" href="./assets/css/05-productos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -43,7 +46,7 @@
                                 </select>
                             </a></li>
                             <li class="nav-link ocultar"><a href="#">Promociones</a></li>
-                            <li class="nav-link ocultar"><a href="#">Historial</a></li>
+                            <!-- <li class="nav-link ocultar"><a href="#">Historial</a></li> -->
                         </ul>
                     </nav>
                 </div>
@@ -60,21 +63,27 @@
         </div>
     </header>
 
-    <!-- <section class="banner">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="assets/img/Productos/banner/igor-miske-Px3iBXV-4TU-unsplash.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/img/Productos/banner/mike-petrucci-c9FQyqIECds-unsplash.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/img/Productos/banner/samuel-regan-asante-cYNp8un5QkI-unsplash.jpg" class="d-block w-100" alt="...">
-              </div>
+    <section class="banner">
+        <div class="banner__carrosel">
+            <div class="atras">
+                <img id="atras" src="./assets/icons/arrow-prev-small-svgrepo-com.svg" alt="atras" loading="lazy" width="50px" height="50px">
             </div>
-          </div>
-    </section> -->
+            <div class="imagenes">
+                <div class="img">
+                    <img class="img" src="./assets/img/Productos/banner/igor-miske-Px3iBXV-4TU-unsplash.jpg" alt="igor-miske-Px3iBXV-4TU-unsplash" loading="lazy">
+                </div>
+                <div class="texto" id="texto">
+                    <h3>Proyecto 01</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, atque rerum placeat ipsam sunt quia, minus.</p>
+                </div>
+            </div>
+            <div class="adelante" id="adelante">
+                <img src="./assets/icons/arrow-next-small-svgrepo-com.svg" alt="adelante" loading="lazy" width="50px" height="50px">
+            </div>
+        </div>
+
+        <div class="puntos" id="puntos"></div>
+    </section>
 
     <section class="productos">
         <div class="productos__container">
@@ -365,6 +374,8 @@
 
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+
+    <script src="./assets/js/02-carrosel.js"></script>
  
 </body>
 
