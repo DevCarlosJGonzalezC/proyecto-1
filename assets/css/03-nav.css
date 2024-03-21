@@ -9,19 +9,16 @@
 
 .header{
     background-color: rgb(40, 40, 167);
-    border: 2px solid blue;
 }
 
 .container {
     display: block;
     width: 100%;
     height: 20%;
-    border: 1px solid chartreuse;
 }
 
 .nav{
     width: 60%;
-    border: 2px solid red;
 }
 
 .navSeccion1{
@@ -29,14 +26,12 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 15px 0;
-    border: 1px solid orangered;
 }
 
 .logo {
     display: flex;
     width: 25%;
     height: 5%;
-    border: 1px solid chartreuse;
 }
 
 .logo img{
@@ -55,16 +50,14 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 15px 0;
-    border: 1px solid orangered;
 }
 
 .nav-1{
-    width: 40%;
-    border: 2px solid green;    
+    width: 50%;
 }
+
 .nav-2{
     width: 40%;
-    border: 2px solid green;    
 }
 
 .nav-item{
@@ -95,5 +88,17 @@
 }
 
 .nav-link a:hover{
+    color: black;
+}
+
+#categorias{
+    margin-right: 10px;
+    border-radius: .3rem;
+    outline: none;
+    color: white;
+    background-color: transparent;
+}
+
+#categorias-item{
     color: black;
 }
