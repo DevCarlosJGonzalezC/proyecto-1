@@ -1,4 +1,4 @@
-Lik del proyecto de desarrollo: AQUI STORE: https://devcarlosjgonzalezc.github.io/proyecto-1/
+Link del proyecto de desarrollo: AQUI STORE: https://devcarlosjgonzalezc.github.io/proyecto-1/
 
 19-03-24: Agregando categorias de productos al proyecto.            
 20-03-24: agregando links a la nav.         
