@@ -10,12 +10,11 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: auto;
     padding: 10px;
     margin: 10px;
     border-radius: 1rem;
-    border: 1PX solid red;
 }
 
 .productos__categoria{
@@ -95,4 +94,16 @@
 
 .productos__link:hover {
     background-color: orange;
+}
+
+@media (max-width:768px){
+    .productos__box{
+        width: 80%;
+    }
+}
+
+@media (max-width:400px){
+    .productos__box{
+        width: 100%;
+    }
 }
