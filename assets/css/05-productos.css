@@ -24,15 +24,18 @@
     width: 90%;
     margin: 0 auto;
     margin-bottom: 10px;
-    /* border: 2px solid orange; */
     border-radius: 1rem;
-    background-color: rgb(238, 238, 238);
+    background-color: var(--body-bg);
 }
 
 .producto__titulo{
     width: 40%;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
+    text-decoration: none;
+    font-size: 26px;
+    color: var(--dark-color);
+    font-weight: bold;
 }
 
 .diademas-box{
@@ -53,30 +56,32 @@
     padding: 10px 5px;
     margin: 10px 5px;
     border-radius: 1rem;
-    transition: all .4s ease-in-out;
-
+    transition: all .3s ease-in-out;
+    
 }
 
 .productos__box:hover{
     box-shadow: 5px 5px 10px black;
-    background-color: white;
+    background-color: var(--second-color);
+    border: 1px solid var(--border-color);
 }
 
 .productos__container img {
     width: 120px;
     height: 150px;
     margin: 10px 0;
+    border-radius: 1rem;
 }
 
 .productos__subtitulo{
     padding: 10px 0;
     font-size: 14px;
-    color: red;
+    color: var(--dark-color);
 }
 
-.productos__descripcion{
+/* .productos__descripcion{
     
-}
+} */
 
 .productos__link{
     display: block;
@@ -84,7 +89,7 @@
     text-align: center;
     padding: 5px 0;
     margin: 5px 0;
-    background-color: orangered;
+    background-color: var(--second-color-alt);
     color: white;
     font-weight:bold;
     text-decoration: none;
@@ -93,7 +98,9 @@
 }
 
 .productos__link:hover {
-    background-color: orange;
+    border: 1px solid var(--border-color);
+    background-color: var(--acent-color);
+    box-shadow: 5px 5px 10px var(--dark-color);
 }
 
 @media (max-width:768px){

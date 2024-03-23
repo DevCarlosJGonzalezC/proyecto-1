@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;    
+}
+
+:root{
+    --first-color:      #2988BC;
+    --first-color-alt:  #004c8a;
+    --second-color:     #00CBFF;
+    --second-color-alt: #00BFF0;
+    --third-color:      #FF3C32;
+    --third-color-alt:  #FF2419;
+    --acent-color:      #FBA905;
+    --acent-color-alt:  #F1A000;
+    --dark-color:       #282D31;
+    --dark-color-alt:   #141618;
+    --border-color:     #DFE0E0;
+    --text-color:       #53575A;
+    --body-bg:          #FAFDFF;
+}
+
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--first-color-alt);    
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
