@@ -96,3 +96,35 @@
     text-align: center;
 }
 
+.footer__boxImg{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.boxImg1{
+    width: 40%;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.boxImg1 img {
+    width: 100%;
+    filter: drop-shadow(4px 4px 5px var(--dark-color)); 
+}
+
+.boxImg2{
+    width: 40%;
+    text-align: center;
+}
+
+.boxImg2 img{
+    width: 100%;
+    filter: drop-shadow(4px 4px 5px var(--first-color));
+}
+
+.footer__subtituloIMg{
+    font-size: 16px;
+    color: black;
+}
