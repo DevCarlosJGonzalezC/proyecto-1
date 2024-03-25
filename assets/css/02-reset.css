@@ -9,10 +9,7 @@ h1, h2, h4, h5, h6 {
     gap: 50px;
     text-transform: capitalize;
     text-align: center;
-
 }
-
-
 
 ul, li {
     padding: 0;
@@ -33,14 +30,6 @@ ul, li {
 
 #menu {
     display: none;
-}
-
-/* Carlos R */
-
-h3 {
-    font-size: 17px;
-    color: #0e38f3;
-    text-transform: capitalize;
 }
 
 .btn-1 {
