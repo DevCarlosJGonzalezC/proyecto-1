@@ -24,6 +24,7 @@
     width: 25%;
     height: 5%;
     border: 2px solid blue;
+    cursor: pointer;
 }
 
 .logo img{
