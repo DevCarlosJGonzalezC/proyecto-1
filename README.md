@@ -6,7 +6,8 @@
 21-03-24: agregando estilos a las categorias y productos.        
 22-03-24: Configurando y dando estilos al banner.     
 23-03-24: Creacion y configuracion del footer.      
-24-03-24: footer configurado en un 85%.
+24-03-24: footer configurado en un 85%.       
+25-03-24: Creacion de archivos complementarios html.
 
 Link del proyecto de desarrollo: AQUI STORE: https://devcarlosjgonzalezc.github.io/proyecto-1/
 
