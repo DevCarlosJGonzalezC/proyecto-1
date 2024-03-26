@@ -1,0 +1,130 @@
+.footer__container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    margin: 0 auto;
+    border: 2px solid var(--dark-color-alt);
+    background-color: var(--body-bg);
+}
+.footer__boxMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 70%;
+    padding: 10px 20px;
+    border: 2px solid var(--body-bg);
+    color: var(--dark-color);
+    font-weight: bold;
+    box-shadow: 5px 5px 8px black;
+    border-radius: 1rem;    
+}
+
+.footer__subtitulo{
+    font-size: 28px;
+    margin: 30px 10px;
+    color: var(--dark-color);
+    text-shadow: 5px 5px 10px var(--dark-color);
+}
+
+.footer__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__item{
+    margin: 5px;
+    padding: 10px 0;
+    list-style: none;
+}
+
+.footer__links img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid var(--dark-color);
+    border-radius: 30%;
+    transition: all .4s ease-in-out;    
+}
+
+.footer__links img:hover{
+    box-shadow: 5px 5px 07px var(--dark-color);
+}
+
+.facebook{
+    transition: all .4s ease-in-out;    
+}
+
+.facebook:hover{
+    background: linear-gradient(to bottom, #277cec, white);
+}
+
+.instagram{
+    transition: all .4s ease-in-out;    
+    
+}
+
+.instagram:hover{
+    background: linear-gradient(to bottom, orange, purple, pink);
+
+}
+.youtube{
+    transition: all .4s ease-in-out;    
+    
+}
+
+.youtube:hover{
+    background: linear-gradient(to bottom, red, white);
+
+}
+.whataApp{
+    transition: all .4s ease-in-out;    
+    
+}
+
+.whataApp:hover{
+    background: linear-gradient(to bottom, green, white);
+
+}
+
+.footer__parrafo{
+    text-align: center;
+}
+
+.footer__boxImg{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.boxImg1{
+    width: 40%;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.boxImg1 img {
+    width: 100%;
+    filter: drop-shadow(4px 4px 5px var(--dark-color)); 
+}
+
+.boxImg2{
+    width: 40%;
+    text-align: center;
+}
+
+.boxImg2 img{
+    width: 100%;
+    filter: drop-shadow(4px 4px 5px var(--first-color));
+}
+
+.footer__subtituloIMg{
+    font-size: 16px;
+    color: black;
+}
