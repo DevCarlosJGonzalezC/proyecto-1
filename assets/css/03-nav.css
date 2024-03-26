@@ -23,7 +23,6 @@
     display: flex;
     width: 25%;
     height: 5%;
-    border: 2px solid blue;
     cursor: pointer;
 }
 
@@ -42,7 +41,6 @@
 .buscador {
     width: 50%;
     padding: 5px;
-    border: 2px solid red;
 }
 
 .buscador__input{
