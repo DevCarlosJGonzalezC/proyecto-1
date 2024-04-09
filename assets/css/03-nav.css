@@ -26,6 +26,11 @@
     cursor: pointer;
 }
 
+.logo a{
+    display: flex;
+    text-decoration: none;
+}
+
 .logo img{
     width: 25%;
     background-size: cover;
@@ -62,7 +67,7 @@
 }
 
 .btn-buscar:hover{
-    background-color: var(--first-color);
+    background-color: var(--second-color-alt);
     color: var(--border-color);
     border: 2px solid var(--border-color);
 }

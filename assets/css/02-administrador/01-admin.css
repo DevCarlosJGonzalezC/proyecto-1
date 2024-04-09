@@ -1,0 +1,23 @@
+.admin__container{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid blue;
+    background-color: white;
+    
+}
+
+.izquierda{
+    width: 40%;
+    height: 500px;
+    border: 1px solid green;
+    background-color: gray;
+}
+
+.derecha{
+    width: 55%;
+    height: 500px;
+    border: 1px solid red;
+    background-color: cadetblue;
+}
