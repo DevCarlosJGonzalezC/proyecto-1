@@ -8,7 +8,7 @@
 23-03-24: Creacion y configuracion del footer.      
 24-03-24: footer configurado en un 85%.       
 25-03-24: Creacion de archivos complementarios html.        
-09-04-24: Agregando codigo javascritp a login.js
+09-04-24: Agregando codigo javascritp a login.js.            
 11-04-24: contruyendo codigo de los elaces agregar, editar  y eliminar desde el perfil de admin"
 
 Link del proyecto de desarrollo: AQUI STORE: https://devcarlosjgonzalezc.github.io/proyecto-1/
