@@ -32,7 +32,7 @@
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 60%;
+    height: 40vh;
     border: 2px solid var(--dark-color-alt);
     border-radius: .5rem;
     transition: all .5s ease-in-out;
@@ -44,6 +44,7 @@
 
 label {
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 input{
