@@ -80,3 +80,7 @@
     border: 2px solid blue;
     background-color: lightsalmon;
 }
+
+.ocultar {
+    display: none;
+}
