@@ -1,0 +1,7 @@
+.container-Verproducto {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid red;
+}

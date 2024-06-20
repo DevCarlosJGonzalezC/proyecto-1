@@ -1,0 +1,18 @@
+{
+"producto":[
+    {
+        "name": "Mouse",
+        "imagenUrl": "OJO",
+        "precio": "$23.000",
+        "id": 6,
+        "descripcion": ""
+    },
+    {
+        "name": "Diadema",
+        "imagenUrl": "OJO",
+        "precio": "$135.000",
+        "id": 5,
+        "descripcion": ""
+    }
+]
+}
