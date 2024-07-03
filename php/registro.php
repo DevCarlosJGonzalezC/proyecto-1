@@ -13,13 +13,13 @@ if($_SERVER["REQUEST_METHOD"]=="POST") {
 
     //validacion si el ussario ya est registrado
 
-    $sql = "SELECT email FROM users WHERE email=?";
+    $sql = "SELECT email FROM usuarios WHERE email=?";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("s", $email);
-    $stmt->execte();
+    $stmt->execute();
     $stmt->store_result();
-    if($stmt->num_rows > 0){
-        die("El email ya esta registrado")
+    if($stmt->num_rows > 0) {
+        die("El email ya esta registrado");
     }
     $stmt->close();
 
@@ -31,10 +31,10 @@ if($_SERVER["REQUEST_METHOD"]=="POST") {
     $sql = "INSERT INTO users (nombre, email, contraseña) VALUES (?,?,?)";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("sss", $nombre, $email, $hashed_password);
-    if($stmt->execute){
+    if($stmt->execute()){
         echo "Usuario registrado exitosamente";
     } else {
-        eho "Error al registrar el usuario: " . $stmt->error;
+        echo "Error al registrar el usuario: " . $stmt->error;
     }
     $stmt->close();
 }
